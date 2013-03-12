@@ -12,6 +12,8 @@ The ADB port forwarder can be used to connect your local adb client with a remot
 
 replace {{{[adb location]}}} with the location where the android sdk is located on your system.
 
+you can now use adb on the command line and the android plugin in eclipse like if the device is locally connected.
+
 =HOW IT WORKS=
 
 For information about the Android Debug Bridge read: [http://developer.android.com/tools/help/adb.html]
@@ -20,4 +22,3 @@ The ADB server create a server socket at port 5037.  But it only seems to do thi
 
 The adb port forwarder which is running in client mode will connect to the adb port forwarder running in server mode and will route all incoming trafic on port 5037 to the remote host at port 6037.
 When the adb port forwarder is started in client mode it will first kill the local adb server if it's running.
-
