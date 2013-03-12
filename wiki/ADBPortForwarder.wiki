@@ -12,7 +12,7 @@ The ADB port forwarder can be used to connect your local adb client with a remot
 
 replace {{{[adb location]}}} with the location where the android sdk is located on your system.
 
-you can now use adb on the command line and the android plugin in eclipse like if the device is locally connected.
+You can now use adb on the command line and the android plugin in eclipse like  the device is locally connected.
 
 =HOW IT WORKS=
 
