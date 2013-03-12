@@ -10,4 +10,4 @@ This page describes how to use the adb port forwarder
   * Start the port forwader on the remote machine with the command:
   {{{java -jar adbportforward.jar client adblocation=[adb location] remotehost=[ip of machine to which android device is connected]}}}
 
-replace [adb location] with the location where the android sdk is located on your system.
+replace {{{[adb location]}}} with the location where the android sdk is located on your system.
