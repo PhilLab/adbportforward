@@ -1,0 +1,6 @@
+=INTRO=
+
+This page describes how to use the adb port forwarder
+
+1.  Download the adbportforward.jar from the Downloads section
+2.  Start the port forwarder on the machine on which the device is connected with the command: 
