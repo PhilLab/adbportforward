@@ -36,7 +36,7 @@ public class AndroidADBServerConfiguration {
             LOGGER.error( "Unable to start adb server", e );
           }
         }
-      }, 0 , 1 , TimeUnit.MINUTES);
+      }, 0 , 30 , TimeUnit.SECONDS);
 
 
       myPortForward = new PortForward( 6037, "127.0.0.1", 5037 );
